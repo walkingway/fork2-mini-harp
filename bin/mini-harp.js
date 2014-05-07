@@ -7,7 +7,7 @@ var createMiniHarp = require("mini-harp")
 
 var num = argv["port"] || 4000;
 
-console.log("Starting mini-harp on http://localhost:%d" + root, num);
+console.log("Starting mini-harp on http://localhost:%d " + root, num);
 app.listen(num);
 
 
