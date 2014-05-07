@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var argv = require('minimist')(process.argv.slice(2));
-root = argv._[0] || process.cwd();
+var root = argv._[0] || process.cwd();
 
 var createMiniHarp = require("mini-harp")
   , app = createMiniHarp(root);
